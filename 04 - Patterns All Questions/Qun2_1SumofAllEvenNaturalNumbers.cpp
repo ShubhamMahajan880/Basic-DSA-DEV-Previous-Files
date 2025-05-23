@@ -1,0 +1,18 @@
+// WAP to print sum of all even numbers 1 to n
+#include<iostream>
+using namespace std;
+int main(){
+    int n;
+    int i=2;
+    cin>>n;
+    int sum = 0 ;
+    while (i<=n)
+    {
+        sum = sum + i;
+        i = i + 2;
+    }
+
+cout<<"Hence the sum from 0 to"<<n<< "number is given as :- "<<sum << endl;
+}
+// 44
+//Hence the sum from 0 to44number is given as :- 506
