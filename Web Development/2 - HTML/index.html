@@ -1,176 +1,279 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lecture2</title>
 
-    <style>
-      /* Making Table  */
-      table,
-      tr,
-      td,
-      th {
-        border: 1px solid black;
-        border-collapse: collapse;
-      }
-    </style>
-  </head>
-  <body>
-    <!-- paragraph  -->
-    <p>This is Paragraph</p>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lecture3</title>
 
-    <!-- headings h1 to h6 -->
-    <h1>heading1</h1>
-    <h2>heading2</h2>
-    <h3>heading3</h3>
-    <h4>heading4</h4>
-    <h5>heading5</h5>
-    <h6>heading6</h6>
+  <style>
+    table,
+    tr,
+    th,
+    td {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+  </style>
+</head>
 
-    <!-- using br tag  -->
-    <p>My name is Priyansh</p>
-    <br />
-    <p>What is your Name?</p>
+<body>
+  <table>
+    <tr>
+      <th colspan="2">Month</th>
+      <th>Saving</th>
+    </tr>
 
-    <!-- Nested Br  -->
-    <p>My Name is <br />Priyansh Patel</p>
+    <tr>
+      <td>January</td>
+      <td>300</td>
+    </tr>
+    <tr>
+      <td>February</td>
+      <td>500</td>
+    </tr>
+    <tr>
+      <td>March</td>
+      <td>1200</td>
+    </tr>
+    <tr>
+      <td>Total</td>
+      <td>2000</td>
+    </tr>
+  </table>
 
-    <!-- Generate Link  -->
-    <a href="https://www.google.com/" target="_blank">See Google</a> <br />
+  <br /><br />
 
-    <!-- Problem 1 - Image  -->
-    <!-- <img src="../Images/1-toffu.jpg" alt="Toffu"> -->
+  <!-- Another Table  -->
+  <table>
+    <tr>
+      <td>abdc</td>
+      <td>abdc</td>
+      <td>abdc</td>
+    </tr>
+    <tr>
+      <td>abdc</td>
+      <td rowspan="3">abdc</td>
+      <td>abdc</td>
+    </tr>
+    <tr>
+      <td>abdc</td>
+      <td>abdc</td>
+    </tr>
+    <tr>
+      <td>abdc</td>
+      <td>abdc</td>
+    </tr>
+    <tr>
+      <td>abdc</td>
+      <td colspan="2" rowspan="2">abdc</td>
+    </tr>
+    <tr>
+      <td>abdc</td>
+    </tr>
+  </table>
 
-    <!-- Problem2 - Make Image Small  -->
-    <img src="../Images/1-toffu.jpg" alt="Toffu" width="100px" height="100px" />
+  <br /><br />
 
-    <!-- Horizontal Line  -->
-    <hr />
+  <!-- exersize1  -->
+  <table>
+    <tr>
+      <td rowspan="2">State of Health</td>
+      <td colspan="2">Fasting Value</td>
+      <td>After Eating</td>
+    </tr>
+    <tr>
+      <td>Minimum</td>
+      <td>Maximum</td>
+      <td>2 Hours After Eating</td>
+    </tr>
+    <tr>
+      <td>Healthy</td>
+      <td>70</td>
+      <td>100</td>
+      <td>Less than 140</td>
+    </tr>
+    <tr>
+      <td>Pre-Diabetes</td>
+      <td>101</td>
+      <td>126</td>
+      <td>140 to 200</td>
+    </tr>
+    <tr>
+      <td>Diabetes</td>
+      <td>More than 126</td>
+      <td>N/A</td>
+      <td>More than 200</td>
+    </tr>
+  </table>
 
-    <!-- Making Rap  -->
-    <p>
-      Yaar Tera <br />
-      Superstar<br />
-      Desi Kalakar <br />
-    </p>
+  <br /><br />
 
-    <!-- use of pre tag  -->
-    <pre>
-        Yaar Tera
-        Superstar
-        Desi Kalakar
-    </pre>
+  <table>
+    <tr>
+      <!-- col group  -->
+      <table>
+        <colgroup>
+          <col span="" style="background-color: rgb(255, 142, 142);">
+          <col span="2" style="background-color: rgb(164, 255, 169);">
 
-    <!-- Change color  -->
-    <p style="color: brown">This is Lecture 2</p>
-    <p
-      style="
-        background-color: antiquewhite;
-        color: red;
-        text-align: center;
-        font-size: 20px;
-        font-size: larger;
-      "
-    >
-      This is used for Some CSS
-    </p>
-
-    <!-- Formating Texts  -->
-    <!-- bold -->
-    <p><b>This is Bold by using b tag</b></p>
-    <p><strong>This is Bold by using Strong tag</strong></p>
-
-    <!-- italic  -->
-    <p><i>This is italic by i tag</i></p>
-    <p><em>This is italic by em tag</em></p>
-
-    <!-- small  -->
-    <p><small>This is Small Text</small></p>
-
-    <!-- Delete Design - strike through  -->
-    <p><del>Delete</del></p>
-    <p><strike>Strike Tag</strike></p>
-
-    <!-- Mark Something Important  -->
-    <p><mark>This is Important</mark></p>
-
-    <!-- Expression  -->
-    <p>a<sup>2</sup>+b<sup>2</sup></p>
-    <p><mark>Oxygon :</mark> O<sub>2</sub></p>
-
-    <!-- Underline -->
-    <p>My Name is <u>Priyansh</u></p>
-
-    <!-- Nested List  -->
-    <ul>
-      <li>
-        India Player
-        <ol>
-          <li>Virat</li>
-          <li>Rohit</li>
-          <li>Sky</li>
-        </ol>
-      </li>
-      <li>
-        Australia Player
-        <ol>
-          <li>David</li>
-          <li>Maxi</li>
-          <li>Starc</li>
-        </ol>
-      </li>
-    </ul>
-
-    <!-- Table  -->
-    <table>
-      <caption>
-        Marks
-      </caption>
-      <thead>
+          <col style="background-color: aqua;">
+        </colgroup>
         <tr>
-          <th>Subject</th>
-          <th>Marks</th>
+          <td rowspan="2">State of Health</td>
+          <td colspan="2">Fasting Value</td>
+          <td>After Eating</td>
         </tr>
-      </thead>
-      <tbody>
         <tr>
-          <td>Maths</td>
+          <td>Minimum</td>
+          <td>Maximum</td>
+          <td>2 Hours After Eating</td>
+        </tr>
+        <tr>
+          <td>Healthy</td>
+          <td>70</td>
           <td>100</td>
+          <td>Less than 140</td>
         </tr>
         <tr>
-          <td>Physics</td>
-          <td>98</td>
+          <td>Pre-Diabetes</td>
+          <td>101</td>
+          <td>126</td>
+          <td>140 to 200</td>
         </tr>
-      </tbody>
-      <tfoot>
         <tr>
-          <td>Chemistry</td>
-          <td>96</td>
+          <td>Diabetes</td>
+          <td>More than 126</td>
+          <td>N/A</td>
+          <td>More than 200</td>
         </tr>
-      </tfoot>
-    </table>
+      </table>
 
-    <!-- Input Fields -->
-    <input type="text" />
+      <br><br>
 
-    <!-- radio button  -->
-    <input type="radio" />
+      <!-- exersize2 -->
+      <table>
+        <colgroup>
+          <!-- problem 1 - col 123 by green -->
+          <!-- <col span="3" style="background-color: green;"> -->
 
-    <!-- checkbox  -->
-    <input type="checkbox" />
+          <!-- problem 2 - 234 by yellow  -->
+          <!-- <col> -->
+          <!-- <col span="3" style="background-color: yellow;"> -->
 
-    <!-- Exercise Solution  -->
-    <form action="https://www.google.com">
-      <label for="username">Username : </label>
-      <input type="text" name="username" />
-      <br />
-      <label for="password">password : </label>
-      <input type="password" name="password" />
-      <br />
-      <input type="submit" value="Submit" />
-      <br />
-    </form>
-  </body>
+          <!-- problem 3 - color red 2 4 -->
+          <col>
+          <col span="1" style="background-color: red;">
+          <col>
+          <col span="1" style="background-color: red;">
+          <col span="1" style="visibility: collapse;">
+
+        </colgroup>
+        <tr>
+          <td>col1</td>
+          <td>col2</td>
+          <td>col3</td>
+          <td>col4</td>
+          <td>col5</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>2</td>
+          <td>3</td>
+          <td>4</td>
+          <td>5</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>2</td>
+          <td>3</td>
+          <td>4</td>
+          <td>5</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>2</td>
+          <td>3</td>
+          <td>4</td>
+          <td>5</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>2</td>
+          <td>3</td>
+          <td>4</td>
+          <td>5</td>
+        </tr>
+      </table>
+      <!-- Tribute Page HW1 of L2  -->
+      <h1>Linus Torvalds
+      </h1>
+      <p>The creator of Linux</p>
+
+      <figure>
+        <img src="../Images/linux.jpeg" alt="Creator of Linux">
+        <figcaption>A photographer of Linus Torvalds</figcaption>
+      </figure>
+
+      <section>
+        <h2>Biography</h2>
+        <p>Linus Torvalds is a Finnish-American software engineer who is the creator and principal developer of the
+          Linux kernel, which is the kernel for a number of operating systems. He also created the version control
+          system Git. Torvalds was born on December 28, 1969 in Helsinki, Finland. He studied computer science at the
+          University of Helsinki, and he developed the Linux kernel as a student project in 1991. Since then, the Linux
+          kernel has become one of the most widely used kernels in the world, powering everything from smartphones to
+          supercomputers.
+
+        </p>
+        
+      </section>
+
+      <section>
+        <h2>Achievements</h2>
+        <ul>
+          <li><strong>1991</strong> - Created the Linux kernel and the version control system Git
+          </li>
+          <li><strong>2004</strong> - Named one of the "100 Most Influential People in the World" by Time magazine in 2004
+          </li>
+          <li><strong>2010</strong> - Received an honorary doctorate from the University of Helsinki in 2010
+          </li>
+          <li><strong>2010</strong> - Received the 2010 Millennium Technology Prize and the 2012 Free Software Foundation's Award for the Advancement of Free Software
+          </li>
+          <li><strong>2013</strong> - Inducted into the Internet Hall of Fame in 2013 for his contributions to the development of the Linux kernel and the creation of Git
+          </li>
+          <li><strong>2014</strong> - Inducted into the Hall of Fame of the Computer History Museum in 2014
+          </li>
+          <li><strong>2015</strong> - Received the 2015 IEEE Computer Society Computer Pioneer Award
+          </li>
+          <li><strong>2019</strong> - Received the 2019 ACM SIGOPS Hall of Fame Award
+          </li>
+          <li><strong>2021</strong> - Awarded the Takeda Foundation's 2021 Takeda Award for Social Contribution, which recognizes individuals who have made significant contributions to society through technology
+          </li>
+          <li><strong>2021</strong> - Received the 2021 IEEE Masaru Ibuka Consumer Electronics Award, which recognizes individuals who have made significant contributions to the field of consumer electronics
+          </li>
+        </ul>
+
+        <blockquote>
+          <p>"One of the most influential people in the world."
+          </p>
+          <cite>
+            -- Time Magazin
+            <a href="http://www.thefamouspeople.com/profiles/linus-torvalds-3972.php">The Famous People</a>
+          </cite>
+        </blockquote>
+      </section>
+
+      <section>
+        <h2>Resources</h2>
+        <p>Learn more about Linus Torvalds and his work:
+        </p>
+        <ul>
+          <li><a href="https://en.wikipedia.org/wiki/Linus_Torvalds">Wikipedia page on Linus Torvalds</a></li>
+          <li><a href="https://www.linustorvalds.com/">Linus Torvalds's personal website</a></li>
+          <li><a href="https://www.kernel.org/">The Linux Kernel Archives</a></li>
+        </ul>
+      </section>
+</body>
+
 </html>

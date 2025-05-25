@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tables in HTML</title>
+    <style>
+      table,
+      tr,
+      td,
+      th {
+        border: 1px solid black;
+        border-collapse: collapse;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Table Creation,Rowspan,Column Span Properties -->
+    <table>
+      <tr>
+        <th>Work</th>
+        <th>Salary</th>
+      </tr>
+      <tr>
+        <td>FullStack Development</td>
+        <td>20LPA</td>
+      </tr>
+      <tr>
+        <td>Software Development</td>
+        <td>25LPA</td>
+      </tr>
+      <tr>
+        <td>Wordpresss Development</td>
+        <td>$20000</td>
+      </tr>
+      <tr>
+        <th>Blogging</th>
+        <th>Financial Freedom</th>
+      </tr>
+    </table>
+    <hr />
+    <table>
+      <tr>
+        <th colspan="2">Work</th>
+        <th>Salary</th>
+      </tr>
+      <tr>
+        <td>FullStack Development</td>
+        <td>20LPA</td>
+      </tr>
+      <tr>
+        <td rowspan="2">Software Development</td>
+        <td>25LPA</td>
+      </tr>
+      <tr>
+        <td>Wordpresss Development</td>
+        <td>$20000</td>
+      </tr>
+      <tr>
+        <th>Blogging</th>
+        <th>Financial Freedom</th>
+      </tr>
+    </table>
+    <hr>
+    <table>
+        <tr>
+            <td>Shubam</td>
+            <td>Mahajan</td>
+            <td>Product</td>
+        </tr>
+        <tr>
+            <td>Based</td>
+            <td>Company</td>
+            <td>Pune</td>
+        </tr>
+        <tr>
+            <td>FullStack</td>
+            <td>Development</td>
+            <td>30LPA</td>
+        </tr>
+        <tr>
+            <td>FrontEnd</td>
+            <td>Development</td>
+            <td>20LPA</td>
+        </tr>
+    </table>
+    <br>
+    <hr>
+    <table>
+        <tr>
+            <td>Shubam</td>
+            <td>Mahajan</td>
+            <td>Product</td>
+        </tr>
+        <tr>
+            <td>Based</td>
+            <td colspan="2">Company</td>
+            <!-- <td>Pune</td> -->
+        </tr>
+        <tr>
+            <td>FullStack</td>
+            <td rowspan="2">Development</td>
+            <td>30LPA</td>
+        </tr>
+        <tr>
+            <td>FrontEnd</td>
+            <!-- <td>Development</td> -->
+            <td>20LPA</td>
+        </tr>
+    </table>
+    <br>
+    <hr>
+    <table>
+        <caption>My Working Table</caption>
+        <tr>
+            <td>Shubam</td>
+            <td>Mahajan</td>
+            <td>Product</td>
+        </tr>
+        <tr>
+            <td>Based</td>
+            <td>Company</td>
+            <td>Pune</td>
+        </tr>
+        <tr>
+            <td>FullStack</td>
+            <!-- <td>Development</td> -->
+            <td colspan="2" rowspan="2">30LPA</td>
+        </tr>
+        <tr>
+            <td>FrontEnd</td>
+            <!-- <td>Development</td>
+            <td>20LPA</td> -->
+        </tr>
+    </table>
+
+<br>
+<hr>
+<table>
+    <tr>
+        <td rowspan="2" style="background-color: yellow;">State of health</td>
+        <td colspan="2" style="background-color: red;">Fasting value</td>
+        <!-- <td>SHubh</td> -->
+        <td>After Eating</td>
+    </tr>
+    <tr>
+        <!-- <td>State of health</td> -->
+        <td>Minimum</td>
+        <td>Maximum</td>
+        <td>2 Hours after Eating</td>
+    </tr>
+    <tr>
+        <td>Healthy</td>
+        <td>70</td>
+        <td>100</td>
+        <td>Less Than 140</td>
+    </tr>
+    <tr>
+        <td>Pre-Diabetes</td>
+        <td>101</td>
+        <td>126</td>
+        <td>140 to 200</td>
+    </tr>
+    <tr>
+        <td>Diabetes</td>
+        <td>More than 126</td>
+        <td>N/A</td>
+        <td>More than 200</td>
+    </tr>
+    
+</table>
+<br>
+<hr>
+  </body>
+</html>

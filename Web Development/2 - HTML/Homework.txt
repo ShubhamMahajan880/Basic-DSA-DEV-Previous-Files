@@ -1,10 +1,7 @@
-Use MDN or Any Documentation 
+Q1 - Make Table - https://www.google.com/url?sa=i&url=http%3A%2F%2Fvijaykamat-html.blogspot.com%2F2011%2F02%2Fcolspan-rowspan-with-html-table.html&psig=AOvVaw2EkAH2V3jnXQ1dpV6uH2Yd&ust=1672850220326000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCNjD9Orqq_wCFQAAAAAdAAAAABAE
 
-Question1 - Explore Description List!
-Answer : https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl
+Q2 - Rowgroup Exist or Not, If not then what we should [Alternte For It]
 
-Question2 - What happens when we close an Empty Tag?
-Answer : Nothing - Adding the closing tags to the empty elements will be invalid syntax
+Q3 - Read Last Page of Cheatsheet
 
-Question3 - Can we use attribute with html tag? 
-Answer : Yes, Example - <html lang="en">
+Q4 - add hyper link in image
