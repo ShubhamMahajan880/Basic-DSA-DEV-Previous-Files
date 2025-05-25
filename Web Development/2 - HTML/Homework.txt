@@ -1,7 +1,20 @@
-Q1 - Make Table - https://www.google.com/url?sa=i&url=http%3A%2F%2Fvijaykamat-html.blogspot.com%2F2011%2F02%2Fcolspan-rowspan-with-html-table.html&psig=AOvVaw2EkAH2V3jnXQ1dpV6uH2Yd&ust=1672850220326000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCNjD9Orqq_wCFQAAAAAdAAAAABAE
+Q1 - Difference between Header vs H1 
+Ans : https://www.quora.com/What-is-the-difference-between-a-header-and-h1-tag
 
-Q2 - Rowgroup Exist or Not, If not then what we should [Alternte For It]
+Q2 - Can we use Header tag inside Footer
+Ans : No
 
-Q3 - Read Last Page of Cheatsheet
+Q3 - Can we use Multiple Header tag
+Ans : Note: You can have several <header> elements in one HTML document. However, 
+<header> cannot be placed within a <footer>, <address> or another <header> element.
 
-Q4 - add hyper link in image
+Q4 - can we Make Aside content in Center 
+
+Q5 - Difference between Body and Main
+Ans : https://stackoverflow.com/questions/56803764/what-is-the-main-tag-in-html5-how-does-it-differ-from-body-tag#:~:text=body%20is%20everything%2C%20main%20is,...%20and%20so%20on.
+
+Q6 - For Difference - Difference device we use same favicon?
+Ans : No
+
+Q7 - Create DOM of Tribute Page
+Ans : Done
