@@ -1,0 +1,106 @@
+1 - Element Selector - will alwys uses for selcting an element 
+
+2 - Class Selector - Class selector can be accessed with . in style section 
+
+3 - id Selector - id selector is accessed by # in style section 
+
+Inline Element(Span) & Block Element(Div)
+
+4 - Class  may be same for more than one element but id can;t be same
+
+<!-- 5 - <link rel="stylesheet" href="styles.css  -->
+    Link relation should be in stylesheer and href will have the path of thet CSS style file
+
+6 - Specificity - id Styling>>Class styling>>Type Selctor
+
+7 - Margin - 2 div ya d+2 elements k bich ka space margin hota h. Border ke outer waala part
+
+8 - Padding - Content ke or Border ke bich ka space padding kahlaata h
+
+9 - linear-gradient(red,blue) - uses color effect from top to bottom by default
+background-image: linear-gradient(to right, red,blue); - uses for color effect from right to  left --->
+background-image: linear-gradient(to left, red,blue); : - uses for color effect from left to right <---
+
+10 - Shadow style for text : - text-shadow: 3px 5px 3px(this 3rd parameter is responsible for blur the shadow)  blue;  
+
+11 - Box Shadow - box-shadow: 10px 10px(For Shadow Appearance) 10px(For Blurness of that shadow) red(desired color of shadow otherwise black by default);
+ For multiple Shadow: -  use another shadow color together  - box-shadow: 10px 10px 10px red, 10px 10px 10px blue;
+
+ For Direction appearance change of shadow - box-shadow: -10px -10px 10px blue, 10px 10px 10px red;
+
+ Border can be added using shadow properties  by mentioning 1px
+
+12 - max-height: 100px; - Property limit the height and on needed overflow:scroll property can be use
+
+13 - min-height: 100px; - Property minimize the height of content, km se km itna hona chahiye jitni mim height h but agr jyada content h to content ki border apne aap apneaccording handle kr legi
+
+14 - Overflow All Properties - 
+overflow: visible;
+overflow: hidden;
+overflow: clip;
+overflow: scroll;
+overflow: auto;
+
+15 - transform: translate(40px,100px); 1st Argment for moment along x-axis, second argument for moment along y axis
+transform:translateX(100px); For transfer from x axis
+transform: translateY(200px); For transfer from y axis
+transform: rotate(45degrees); For Rotate by entered degrees 
+transform: rotate(-45deg); - Also be used 
+transform: scale(2,3); - Second Attribute Vertically Expand kr rha h and first attribute Horizontally Expand kr rha h
+transform: skew(30deg); Propertry for tilt text by degrees 
+transform: skewX(200deg); tolt along x axis by angle
+transform: skewY(200deg); tolt along y axis by angle
+transform: matrix(45px,90); Apply all transfor operations together
+
+16 - position: static; -By default styling elements add according to user on webpage
+position: relative; - Will only work when any one of the four roperty also using - 
+left: 150px;
+top: 100px;
+right: 450px;
+bottom: 20px;
+
+position: fixed; For fix an element at a fixed possition at given dimenstions
+position: absolute; Sets possition according to previous ancestor 
+position: sticky; Fix element according to given dimenstion at top, bottom,right,left
+
+17 - transform: perspective(1000px) translateZ(-40px) rotate(120deg );
+transform: perspective(1000px) - In z plane piche se samne tk ki distance(ander se bahar tk ki)
+transform: translateZ(-40px) - In z plane aage  se piche tk ki distance(bahar se ander tk ki)
+transform: rotate(120deg ) -  Roatate according to angle(+ angle - CW rotation,- angle- ACW Roatation)
+
+18 - .conatainer>.box*4{box-4} : - is a method to create div class(.) named as container and inside another div(>) having classs name box(.box) 4 times(*4) with content inside box-1,box2,box3,box4 {box-4}
+
+<!-- Flex Container All Properties -->
+19 - display: flex; Property changes flex
+flex-direction: row; Direction of flex rowwise
+flex-direction: column; Direction of flex Columnwise
+flex-direction: row-reverse; Direction of flex rowwise but in reverse order(Right side ofScreen instead of left)
+flex-direction: column-reverse; Direction of flex Columnwise but in reverse order(bottom side ofScreen instead of top)
+
+flex-wrap: wrap; Using this al flexed colmn or row will get wrap and adjust according to dissplay responsiveness. On needed shift towards down side 
+flex-wrap: nowrap; Elements of flex either in Row or Column will not get wrap or change the sie or not shoft downside
+flex-flow: row-reverse wrap;is a shorthand property for flex-direction and flex-wrap
+justify-content: center; All items in center of main content(axis)
+justify-content: flex-end;All items in end of main content(axis)
+justify-content: flex-start; All items in starting of main content(axis)
+justify-content: space-around; Create space around each flex    
+justify-content: space-between;
+
+20 - align-items: flex-start;- Main Line (cross line) ke top me
+align-items: flex-end; -  Main Line (cross line) ke bottom me
+align-items: center; -  Main Line (cross line) ke center me
+align-items: stretch; - Strech all flex items
+align-items: baseline; - All flex items at baseline on same level
+
+justify-content: center;
+align-items: center;  Properties uses for center the content
+
+<!-- Flex Items All Properties -->
+
+21 - order: 1; uses for replace box 1 to place of box 4 OR any box to last possition
+flex-grow: 1; uses for increase width of every element in <flex-items></flex-items>
+flex-shrink: 4; Uses for increment in shrink speed of particular box
+flex-basis: 100%; uses for width of all flex items,for the space of name of idetc.
+flex - is shorthand property of above 4 properties 
+align-self:flex-end; is proprty for arrangement of induvidual one
+box-sizing: border-box; For border on every box

@@ -1,0 +1,14 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    border: 1px solid red;
+}
+
+.Tramslated{
+    transform: perspective(1000px) translateZ(-40px) rotate(-120deg );
+    -webkit-transform: perspective(1000px) translateZ(-40px) rotate(-120deg );
+    -moz-transform: perspective(1000px) translateZ(-40px) rotate(-120deg );
+    -ms-transform: perspective(1000px) translateZ(-40px) rotate(-120deg );
+    -o-transform: perspective(1000px) translateZ(-40px) rotate(-120deg );
+}

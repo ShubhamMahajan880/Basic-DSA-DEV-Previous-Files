@@ -1,0 +1,47 @@
+/* All propertied for Flex Container  */
+*{
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+}
+.container {
+  height: 400px;
+  border: 2px solid green;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  justify-content: flex-start;
+  justify-content: center;
+  /* justify-content: space-around;
+justify-content: space-between;
+justify-content: space-evenly; */
+  align-items: flex-start;
+  align-items: flex-end;
+  align-items: center;
+  align-items: stretch;
+  align-items: baseline;
+  /* gap: 10px; */
+}
+
+.box {
+  border: 1px solid red;
+  background-color: yellow;
+  width: 50px;
+  flex-grow: 1;
+  /* flex-basis: 100%; */
+}
+
+/* All propertied for Flex items  */
+
+#workbox1 {
+  order: 1;
+  flex-shrink: 4;
+  /* align-self:flex-end; */
+}
+
+#workbox2 {
+  order: 3;
+  flex-shrink: 4;
+  /* align-self: flex-start; */
+}
