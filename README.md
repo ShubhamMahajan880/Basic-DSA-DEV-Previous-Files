@@ -43,5 +43,25 @@ Something I can always come back to and learn from.
 
 ---
 
+## 📸 Screenshots
+
+<div align="center">
+
+### 📝 DSA & Web Dev Practice Files
+
+<img width="1024" alt="DSA Files Screenshot" src="<img width="1024" height="1024" alt="Gemini_Generated_Image_scoshvscoshvscos" src="https://github.com/user-attachments/assets/33cf11be-3e61-4534-a9dd-c447a80f9a41" />
+" />
+
+<br/><br/>
+
+### 📂 Web Development Revision Files
+
+<img width="1024" alt="Web Dev Files Screenshot" src="<img width="1024" height="1024" alt="download (1)" src="https://github.com/user-attachments/assets/22c6cd34-ccf7-47b3-94d6-5ccc3f57362f" />
+" />
+
+</div>
+
+---
+
 ## 🔖 Tags
 learning-by-doing • html • css • javascript • webdevelopment • dsa • dsa-algorithm • dsa-learning-series • dsa-practice • dsa-cpp
