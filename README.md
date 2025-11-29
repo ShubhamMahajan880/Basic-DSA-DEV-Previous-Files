@@ -17,6 +17,29 @@ These are the files I wrote while learning, experimenting, breaking things, and 
 
 ---
 
+
+---
+
+## 📸 Screenshots
+
+<div align="center">
+
+<div align="center">
+
+### 📝 DSA & Web Dev Practice Files
+<img src="https://github.com/user-attachments/assets/33cf11be-3e61-4534-a9dd-c447a80f9a41" width="1024"/>
+
+<br/><br/>
+
+### 📂 Web Development Revision Files
+<img src="https://github.com/user-attachments/assets/22c6cd34-ccf7-47b3-94d6-5ccc3f57362f" width="1024"/>
+
+</div>
+
+</div>
+
+---
+
 ## 🧩 Topics Covered
 - DSA Basics  
 - Arrays, Strings, Searching, Sorting  
@@ -41,27 +64,6 @@ To document my learning journey, track progress, and keep all my early fundament
 It’s not a polished project — it’s my foundation.  
 Something I can always come back to and learn from.
 
----
-
-## 📸 Screenshots
-
-<div align="center">
-
-### 📝 DSA & Web Dev Practice Files
-
-<img width="1024" alt="" src="<img width="1024" height="1024" alt="Gemini_Generated_Image_scoshvscoshvscos" src="https://github.com/user-attachments/assets/33cf11be-3e61-4534-a9dd-c447a80f9a41" />
-" />
-
-<br/><br/>
-
-### 📂 Web Development Revision Files
-
-<img width="1024" alt="" src="<img width="1024" height="1024" alt="download (1)" src="https://github.com/user-attachments/assets/22c6cd34-ccf7-47b3-94d6-5ccc3f57362f" />
-" />
-
-</div>
-
----
 
 ## 🔖 Tags
 learning-by-doing • html • css • javascript • webdevelopment • dsa • dsa-algorithm • dsa-learning-series • dsa-practice • dsa-cpp
